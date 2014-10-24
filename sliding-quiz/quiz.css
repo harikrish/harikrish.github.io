@@ -25,13 +25,12 @@ html, body {
     float: left;
     background: #ffffff;
     text-align: center;
+    box-sizing: border-box;
     border-top: solid 7px #cccccc;
     border-left: solid 7px #cccccc;
-    box-sizing: border-box;
     border-bottom: solid 7px #787878;
     border-right: solid 7px #787878;
-    padding-top: 13px;
-    padding-bottom: 13px;
+    line-height: 54px;
 }
 
 figcaption {
