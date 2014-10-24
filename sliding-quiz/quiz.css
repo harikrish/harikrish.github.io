@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, sans-serif
+}
+
+.SlidingPuzzleFigure {
+    margin-left: 32px;
+    margin-top: 32px;
+    width: 224px;
+}
+
+.SlidingPuzzle {
+    margin: 0px;
+    list-style-type: none;
+    padding:10px;
+    border-radius: 5px;
+    background: #000000;
+    overflow: auto;
+}
+
+.Tile {
+    width: 68px;
+    height: 68px;
+    float: left;
+    background: #ffffff;
+    text-align: center;
+    border-top: solid 7px #cccccc;
+    border-left: solid 7px #cccccc;
+    box-sizing: border-box;
+    border-bottom: solid 7px #787878;
+    border-right: solid 7px #787878;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+figcaption {
+    clear: left;
+    font-size: 18px;
+    margin-left: 24px;
+    font-style: italic;
+    margin-top: 8px;
+}
