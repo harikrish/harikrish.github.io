@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ES6 Arrow functions"
-date:   2017-04-22-5 17:00:10 -0700
+date:   2017-04-05 17:00:10 -0700
 categories: ES6 JavaScript
 ---
 
