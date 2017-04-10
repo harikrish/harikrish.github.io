@@ -34,6 +34,16 @@ mkdir components containers actions reducers
 
 {% endhighlight %}
 
+- Install required Redux and dependency packages
+
+{% highlight shell %}
+
+ npm install --save redux
+ npm install --save react-redux
+
+{% endhighlight %}
+
+
 - Create the components Todo.js, TodoList.js, Footer.js, Link.js (https://github.com/harikrish/todo-react-redux/tree/master/src/components)
 
 - Create the container components AddTodo.js, FilterLink.js, VisibleTodoList.js (https://github.com/harikrish/todo-react-redux/tree/master/src/containers)
