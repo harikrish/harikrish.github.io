@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "What is a Promise ?"
+date:   2017-04-13 06:00:50 -0700
+categories: javascript
+---
+
+A promise is an object that may produce a single value
+some time in the future: either a resolved value, or a
+reason that it's not resolved. A promise may be in one of
+the 3 possible states: fulfilled, rejected or pending.
+Promise user can attach callbacks to handle the fulfilled
+value or the reason for rejection.
+
+
+References
+
+- https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
+- https://developers.google.com/web/fundamentals/getting-started/primers/promises
+- https://davidwalsh.name/promises
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
