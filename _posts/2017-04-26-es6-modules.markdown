@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "ES6 modules"
+date:   2017-04-26 12:43:00 -0700
+categories: ES6 JavaScript
+---
+
+ES6 is the first time JavaScript has built in modules.
+
+The goal of ES6 modules was to create a format that both users
+of CommonJS and of AMD are happy with. Its syntax is even
+more compact than CommonJS. Their structure can be statically 
+analyzed. Their support of cyclic dependencies is better than CommonJS.
+Similar to AMD, they have direct support for asynchronous loading
+and configurable module loading.
+
+References
+- http://exploringjs.com/es6/ch_modules.html#sec_module-loader-api
