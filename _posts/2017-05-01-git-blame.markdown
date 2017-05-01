@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "What is Git blame ?"
+date:   2017-05-01 15:38:00 -0700
+categories: Git
+---
+
+Git blame helps in viewing the line by line revision history for an
+entire file.
+
+References
+- https://zsoltfabok.com/blog/2012/02/git-blame-line-history/
+- https://help.github.com/articles/tracing-changes-in-a-file/
+- https://git-scm.com/docs/git-blame
