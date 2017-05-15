@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "How to do undo in Git?"
+date:   2017-05-15 16:36:00 -0700
+categories: Git
+---
+
+References
+- https://github.com/blog/2019-how-to-undo-almost-anything-with-git
