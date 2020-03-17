@@ -12,6 +12,33 @@ the 3 possible states: fulfilled, rejected or pending.
 Promise user can attach callbacks to handle the fulfilled
 value or the reason for rejection.
 
+{% highlight javascript %}
+
+let promise = new Promise(function(resolve, reject) {
+  setTimeout(() => resolve("done!"), 1000);
+});
+
+// resolve runs the first function in .then
+promise.then(
+  result => alert(result), // shows "done!" after 1 second
+  error => alert(error) // doesn't run
+);
+
+{% endhighlight %}
+
+{% highlight javascript %}
+
+let promise = new Promise(function(resolve, reject) {
+  setTimeout(() => reject(new Error("Whoops!")), 1000);
+});
+
+// reject runs the second function in .then
+promise.then(
+  result => alert(result), // doesn't run
+  error => alert(error) // shows "Error: Whoops!" after 1 second
+);
+
+{% endhighlight %}
 
 References
 
@@ -19,3 +46,4 @@ References
 - https://developers.google.com/web/fundamentals/getting-started/primers/promises
 - https://davidwalsh.name/promises
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+- https://javascript.info/promise-basics
