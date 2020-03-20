@@ -7,7 +7,7 @@ categories: [ruby, jekyll]
 
 Running Jekyll local server with Ruby 2.7.0 gives warnings as below,
 
-{% highlight bash}
+{% highlight shell %}
 
 /home/username/.rvm/gems/ruby-2.7.0/gems/jekyll-3.6.3/lib/jekyll/tags/include.rb:193: warning: Using the last argument as keyword parameters is deprecated
 
