@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll server with Ruby 2.7.0 gives 'warning Using the last argument as keyword parameters is deprecated'"
 date:   2020-03-20 06:35:48 -0700
-categories: ruby jekyll
+categories: [ruby, jekyll]
 ---
 
 Running Jekyll local server with Ruby 2.7.0 gives warnings as below,
