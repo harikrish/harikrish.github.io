@@ -4,12 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Hello. Thank you for visiting my blog.
+This blog is focused mostly focused on computer technology and computer programming and 
+other random things I found useful for myself and thought it would be useful for others too.
+About myself I am computer programmer. I started programming in Java. My focus currently is on Front End technologies like JavaScript, React, Redux, Angular etc.
