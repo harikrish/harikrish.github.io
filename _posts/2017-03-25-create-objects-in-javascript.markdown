@@ -2,10 +2,13 @@
 layout: post
 title:  "Different ways of creating Objects in JavaScript"
 date:   2017-03-25 09:47:39 -0700
-categories: OOP javascript
+categories: JavaScript
 ---
 
-- Objects created with syntax constructs
+Explained below are some of the different ways of creating
+Objects in JavaScript. 
+
+- Objects created with syntax constructs (Object Literal Notation)
 
 {% highlight javascript %}
 
@@ -13,7 +16,9 @@ var o = {a: 1};
 
 {% endhighlight %}
 
-- With Function
+- With Function (New Objects with Constructor function)
+
+A constructor is a function that contains instructions about the properties of an object when that object is created and assigned. Advantage over object literal is you can create many instances of objects that have the same properties.
 
 {% highlight javascript %}
 
@@ -40,6 +45,23 @@ console.log(b.a); // 1 (inherited)
 
 {% endhighlight %}
 
-- Reference
+- With Class
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain#With_Object.create
+JavaScript classes were introduced in ECAMScript 2015 (ES6)
+
+{% highlight javascript %}
+
+Class Car {
+    constructor(make, model) {
+        this.make = make;
+        this.model = model;
+    }
+}
+
+var c = new Car();
+
+{% endhighlight %}
+
+### Reference
+- [Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain#With_Object.create)
+- [Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)

@@ -2,7 +2,7 @@
 layout: post
 title:  "CSS Object Model (CSSOM)"
 date:   2020-04-04 17:17:00 -0700
-categories: OOP javascript
+categories: [CSS, JavaScript]
 ---
 
 The CSS Object Model is a set of APIs allowing the manipulation of CSS from JavaScript. It is much like the DOM, but for the CSS rather than the HTML. It allows users to read and modify CSS style dynamically.

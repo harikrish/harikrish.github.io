@@ -2,7 +2,7 @@
 layout: post
 title:  "Document Object Model (DOM)"
 date:   2020-04-04 14:30:00 -0700
-categories: javascript
+categories: [HTML, JavaScript]
 ---
 
 The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web. 

@@ -2,13 +2,13 @@
 layout: post
 title:  "React Hooks"
 date:   2020-03-26 06:35:48 -0700
-categories: javascript
+categories: [JavaScript, React]
 ---
 
 Hooks let you use more of React’s features without classes.
 Hooks embrace functions, but without sacrificing the practical spirit of React. 
 
-{% highlight javascript %}
+{% highlight jsx %}
 // code from https://reactjs.org/docs/hooks-overview.html
 
 // State Hook example
@@ -30,7 +30,7 @@ function Example() {
 
 {% endhighlight %}
 
-{% highlight javascript %}
+{% highlight jsx %}
 // code from https://reactjs.org/docs/hooks-overview.html
 
 // Effect Hook example
@@ -57,4 +57,4 @@ function Example() {
 {% endhighlight %}
 
 References:
-- https://reactjs.org/docs/hooks-intro.html
+- [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)

@@ -2,7 +2,7 @@
 layout: post
 title:  "Throttle function"
 date:   2020-03-25 06:35:48 -0700
-categories: javascript
+categories: JavaScript
 ---
 
 A throttle is a cousin of the debounce, and they both improve the performance of web applications. 

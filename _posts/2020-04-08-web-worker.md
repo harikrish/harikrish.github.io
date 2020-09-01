@@ -2,7 +2,7 @@
 layout: post
 title:  "Web Workers"
 date:   2020-04-08 06:56:00 -0700
-categories: javascript
+categories: JavaScript
 ---
 
 The Web Workers specification defines an API for spawning background scripts in your web application. Web Workers allow you to do things like fire up long-running scripts to handle computationally intensive tasks, but without blocking the UI or other scripts to handle user interactions. 

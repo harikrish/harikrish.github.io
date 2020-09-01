@@ -2,7 +2,7 @@
 layout: post
 title:  "What is Git commit squash?"
 date:   2017-05-11 14:55:00 -0700
-categories: Programming
+categories: [Programming, Git]
 ---
 
 Git commit squash allows to take a series of 

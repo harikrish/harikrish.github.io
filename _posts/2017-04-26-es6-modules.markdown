@@ -2,7 +2,7 @@
 layout: post
 title:  "ES6 modules"
 date:   2017-04-26 12:43:00 -0700
-categories: ES6 JavaScript
+categories: [ES6, JavaScript]
 ---
 
 ES6 is the first time JavaScript has built in modules.
@@ -14,5 +14,34 @@ analyzed. Their support of cyclic dependencies is better than CommonJS.
 Similar to AMD, they have direct support for asynchronous loading
 and configurable module loading.
 
-References
-- http://exploringjs.com/es6/ch_modules.html#sec_module-loader-api
+Use of native JavaScript modules is dependent on the `import` and `export` statements.
+
+{% highlight javascript %}
+// file name "sum.js"
+function sum(a, b) {
+    return a+b;
+}
+
+export { sum };
+
+{% endhighlight %}
+
+{% highlight javascript %}
+// file name "main.js"
+import { sum } from "./sum.js";
+
+let result = sum(1,2);
+
+console.log(result); //3
+
+{% endhighlight %}
+
+{% highlight html %}
+<script type="module" src="main.js"></script>
+{% endhighlight %}
+
+To get modules to work correctly in a browser, you need to make sure that your server is serving them with a `Content-Type` header that contains a `JavaScript` MIME type such as `text/javascript`
+
+### References
+- [16. Modules](http://exploringjs.com/es6/ch_modules.html)
+- [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)

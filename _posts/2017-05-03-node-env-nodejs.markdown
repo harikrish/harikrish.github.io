@@ -2,7 +2,7 @@
 layout: post
 title:  "What is NODE_ENV in Node.js"
 date:   2017-05-03 10:45:00 -0700
-categories: JavaScript Node.js
+categories: [JavaScript, NodeJS]
 ---
 
 NODE_ENV is an environment variable made popular by the Express.js

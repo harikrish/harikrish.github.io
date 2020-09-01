@@ -2,7 +2,7 @@
 layout: post
 title:  "Same origin policy in JavaScript"
 date:   2017-04-01 14:55:12 -0700
-categories: javascript
+categories: JavaScript
 ---
 
 The same-origin policy restricts how a document or script loaded

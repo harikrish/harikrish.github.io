@@ -2,7 +2,7 @@
 layout: post
 title:  "Difference between Pure and Function React JS component"
 date:   2020-03-16 05:30:00 -0700
-categories: javascript
+categories: JavaScript
 ---
 
 React.PureComponent is similar to React.Component. The difference between them is that React.Component doesn’t implement shouldComponentUpdate(), but React.PureComponent implements it with a shallow prop and state comparison.

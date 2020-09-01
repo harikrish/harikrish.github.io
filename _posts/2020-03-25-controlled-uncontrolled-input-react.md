@@ -2,7 +2,7 @@
 layout: post
 title:  "React Controlled and Uncontrolled Inputs"
 date:   2020-03-25 06:35:48 -0700
-categories: javascript
+categories: [JavaScript, React]
 ---
 
 In HTML, form elements such as input, textarea, and select typically maintain their own state and update it based on user input. In React, mutable state is typically kept in the state property of components, and only updated with setState().
@@ -11,7 +11,7 @@ We can combine the two by making the React state be the “single source of trut
 
 With a controlled component, every state mutation will have an associated handler function.
 
-{% highlight javascript %}
+{% highlight jsx %}
 // Code from https://reactjs.org/docs/forms.html
 
 class NameForm extends React.Component {
@@ -49,7 +49,7 @@ class NameForm extends React.Component {
 
 To write an uncontrolled component, instead of writing an event handler for every state update, you can use a ref to get form values from the DOM.
 
-{% highlight javascript %}
+{% highlight jsx %}
 // Code from https://reactjs.org/docs/uncontrolled-components.html
 
 class NameForm extends React.Component {
@@ -79,5 +79,5 @@ class NameForm extends React.Component {
 {% endhighlight %}
 
 References:
-- https://reactjs.org/docs/forms.html
-- https://reactjs.org/docs/uncontrolled-components.html
+- [Forms](https://reactjs.org/docs/forms.html)
+- [Uncontrolled Components](https://reactjs.org/docs/uncontrolled-components.html)

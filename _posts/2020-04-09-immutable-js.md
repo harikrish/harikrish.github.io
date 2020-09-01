@@ -2,7 +2,7 @@
 layout: post
 title:  "Immutable JS"
 date:   2020-04-09 14:42:48 -0700
-categories: OOP javascript
+categories: JavaScript
 ---
 
 Much of what makes application development difficult is tracking mutation and maintaining state.

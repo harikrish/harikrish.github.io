@@ -2,7 +2,7 @@
 layout: post
 title:  "Imperative vs Declarative Programming"
 date:   2017-05-01 06:00:00 -0700
-categories: JavaScript Programming
+categories: [JavaScript, Programming]
 ---
 
 Declarative programming is more like what you

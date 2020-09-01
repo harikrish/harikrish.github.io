@@ -2,7 +2,7 @@
 layout: post
 title:  "How to delete a Git branch both locally and remotely?"
 date:   2017-05-18 16:36:00 -0700
-categories: Programming Git
+categories: [Programming, Git]
 ---
 
 To delete the local branch use:

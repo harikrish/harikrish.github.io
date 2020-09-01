@@ -2,7 +2,7 @@
 layout: post
 title:  "MVC (Model View Controller) Design Pattern"
 date:   2020-03-24 06:35:48 -0700
-categories: [design, pattern, javascript]
+categories: [Programming, JavaScript]
 ---
 
 Design patterns are important to write maintainable and reusable code. A pattern is a reusable solution that can be applied to commonly occurring problems in software design

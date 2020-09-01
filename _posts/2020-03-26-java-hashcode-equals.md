@@ -2,7 +2,7 @@
 layout: post
 title:  "Java HashCode and Equals"
 date:   2020-03-26 06:35:48 -0700
-categories: java
+categories: Java
 ---
 
 Objects that are equal (according to their equals()) must return the same hash code. It's not required for different objects to return different hash codes.

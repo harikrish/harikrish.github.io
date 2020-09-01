@@ -2,7 +2,7 @@
 layout: post
 title:  "Duck Typing in JavaScript ?"
 date:   2017-04-13 06:32:50 -0700
-categories: javascript
+categories: JavaScript
 ---
 
 The term duck typing comes from the saying "If it looks

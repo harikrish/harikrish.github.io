@@ -2,7 +2,7 @@
 layout: post
 title:  "Difference between JS Varaible that is null, undefined, undeclared"
 date:   2017-04-01 14:55:12 -0700
-categories: javascript
+categories: JavaScript
 ---
 
 - undeclared variables don’t even exist

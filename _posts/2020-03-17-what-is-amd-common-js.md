@@ -2,7 +2,7 @@
 layout: post
 title:  "What is AMD, CommonJS"
 date:   2020-03-17 05:30:00 -0700
-categories: javascript
+categories: JavaScript
 ---
 
 AMD (Asynchronous Module Definition) 

@@ -2,11 +2,12 @@
 layout: post
 title:  "Hoisting in JavaScript"
 date:   2020-03-17 06:35:48 -0700
-categories: javascript
+categories: JavaScript
 ---
 
 Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.
 
+### Variable hoisting
 {% highlight javascript %}
 
 console.log(hoist); // Output: undefined
@@ -52,6 +53,15 @@ Output: ReferenceError: b is not defined
 
 This means that, all undeclared variables are global variables.
 
+In EcmaScript2015(ES6), `let` and `const` are hoisted but not initialized.
+
+{% highlight javascript %}
+console.log(x); // Cannot access 'x' before initialization
+let x = 10;
+{% endhighlight %}
+
+### Function hoisting
+
 {% highlight javascript %}
 
 hoisted(); // Output: "This function has been hoisted."
@@ -74,5 +84,16 @@ var expression = function() {
 
 {% endhighlight %}
 
-References:
-- https://scotch.io/tutorials/understanding-hoisting-in-javascript
+{% highlight javascript %}
+var text = 'outside';
+
+function print(){
+    console.log(text);
+    var text = 'inside';
+};
+print(); // Output: undefined, as only declaration was hoisted, no initialization happened.
+{% endhighlight %}
+
+#### References:
+- [Understanding Hoisting in JavaScript](https://scotch.io/tutorials/understanding-hoisting-in-javascript)
+- [Grammar and types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types)

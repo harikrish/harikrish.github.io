@@ -2,7 +2,7 @@
 layout: post
 title:  "What is Immediately-Invoked Function Expression (IIFE) ?"
 date:   2020-03-17 06:35:48 -0700
-categories: javascript
+categories: JavaScript
 ---
 
 An IIFE or Immediately Invoked Function Expression is a function that is gonna get invoked or executed after its creation or declaration. The syntax for creating IIFE is that we wrap the function (){} inside a parentheses () or the Grouping Operator to treat the function as an expression and after that we invoke it with another parentheses (). So an IIFE looks like this 

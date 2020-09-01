@@ -2,7 +2,7 @@
 layout: post
 title:  "Two way binding"
 date:   2020-03-25 06:35:48 -0700
-categories: javascript
+categories: JavaScript
 ---
 
 Two-way data-binding is a mechanism that synchronizes data in a bidirectional way.

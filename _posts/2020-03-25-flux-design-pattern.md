@@ -2,7 +2,7 @@
 layout: post
 title:  "Flux pattern"
 date:   2020-03-25 06:35:48 -0700
-categories: javascript
+categories: JavaScript
 ---
 
 Flux is the application architecture that Facebook uses for building client-side web applications. It complements React's composable view components by utilizing a unidirectional data flow. 

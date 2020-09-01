@@ -2,7 +2,7 @@
 layout: post
 title:  "What is a Promise ?"
 date:   2017-04-13 06:00:50 -0700
-categories: javascript
+categories: JavaScript
 ---
 
 A promise is an object that may produce a single value
@@ -11,6 +11,11 @@ reason that it's not resolved. A promise may be in one of
 the 3 possible states: fulfilled, rejected or pending.
 Promise user can attach callbacks to handle the fulfilled
 value or the reason for rejection.
+
+### then
+The first argument of `.then` is a function that runs when the promise is resolved and
+receives the result. The second argument of `.then` is a function that runs when 
+the promise is rejected and receives the error.
 
 {% highlight javascript %}
 
@@ -40,10 +45,67 @@ promise.then(
 
 {% endhighlight %}
 
-References
+### Chaining
+Value returned by `then` is used in next `then` by calling with that value.
+However if a promise is returned, the next `then` waits on it and is only
+called when the promise settles.
 
-- https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
-- https://developers.google.com/web/fundamentals/getting-started/primers/promises
-- https://davidwalsh.name/promises
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
-- https://javascript.info/promise-basics
+### catch
+The `catch` callback is executed when the promise is rejected.
+`catch` is just a syntactic sugar for `then(undefined, func)`, but it's more
+readable.
+{% highlight javascript %}
+let promise = new Promise(function(resolve, reject) {
+  reject("Error");
+});
+promise.then(function() {
+  console.log("success");
+})
+.catch(function() {
+  console.log("failure");
+});
+{% endhighlight %}
+
+### finally
+`finally` callback is called regardless of success or failure
+Its a good handler for performing cleanup.
+{% highlight javascript %}
+let promise = new Promise(function(resolve, reject) {
+  reject("Connection Timeout");
+})
+
+promise.then(function() {
+  console.log("success");
+})
+.catch(function() {
+  console.log("failure")
+})
+.finally(function() {
+  console.log("Cleaning up connection objects");
+});
+// failure
+// Cleaning up connection objects 
+{% endhighlight %}
+
+### Static Methods
+- Promise.resolve() - Creates a promise that resolves to value given to it.
+- Promise.reject() - Create a promise that rejects with the value given to it.
+- Promise.all(array) - Make a promise that fulfills when every itme in the array fulfills
+and rejects if any item rejects. 
+- Promise.race() - Make a promise that fulfills as soon as any item fulfills or rejects as soon
+as any item rejects.
+
+### Promise States
+- Fulfilled - The action relating to the promise suceeded.
+- Rejected - The action relating to the promise failed.
+- Pending- Hasn't fulfilled or rejected yet.
+- Settled - Has fulfilled or rejected.
+
+### References
+- [Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
+- [What is a Promise?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
+- [JavaScript Promises: An introduction
+](https://developers.google.com/web/fundamentals/getting-started/primers/promises)
+- [JavaScript Promise API](https://davidwalsh.name/promises)
+- [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+- [Promise](https://javascript.info/promise-basics)

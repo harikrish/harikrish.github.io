@@ -2,7 +2,7 @@
 layout: post
 title:  "Responsive vs Adaptive Design"
 date:   2017-03-28 20:01:48 -0700
-categories: css design
+categories: [CSS, Design]
 ---
 
 - Responsive Design - Responsive websites respond to the browser size

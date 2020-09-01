@@ -2,7 +2,7 @@
 layout: post
 title:  "What is process.env in Node.js"
 date:   2017-05-03 10:00:00 -0700
-categories: JavaScript Node.js
+categories: [JavaScript, NodeJS]
 ---
 
 In Node.js, you can retrieve environment variables by key from 

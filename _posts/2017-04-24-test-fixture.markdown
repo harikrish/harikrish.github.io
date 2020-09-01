@@ -2,7 +2,7 @@
 layout: post
 title:  "What is a Test Fixture ?"
 date:   2017-04-24 12:12:00 -0700
-categories: testing
+categories: Testing
 ---
 
 A test fixture is a fixed state of a set of objects used as a baseline for running tests.

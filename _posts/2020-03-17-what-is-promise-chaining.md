@@ -2,7 +2,7 @@
 layout: post
 title:  "What is Promise Chaining?"
 date:   2020-03-17 05:30:00 -0700
-categories: javascript
+categories: JavaScript
 ---
 
 A common need is to execute two or more asynchronous operations back to back, where each subsequent operation starts when the previous operation succeeds, with the result from the previous step. We accomplish this by creating a promise chain.
@@ -40,5 +40,5 @@ doSomething()
 {% endhighlight %}
 
 Reference:
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
-- https://javascript.info/promise-chaining
+- [Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
+- [Promises chaining](https://javascript.info/promise-chaining)
