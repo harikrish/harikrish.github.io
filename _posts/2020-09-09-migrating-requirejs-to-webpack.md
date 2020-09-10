@@ -88,14 +88,14 @@ Require.js shim takes modules that are not AMD compatible and makes them compati
     {
         resolve: {
             module: {
-                {
+                rules: [{
                     test: /foundation-core/,
                     use: ['imports-loader?jquery']
                 },
                 {
                     test: /foundation-abide/,
                     use: ['imports-loader?foundation-core']
-                }
+                }]
             }
         }
     }
