@@ -5,7 +5,7 @@ date:   2020-03-17 05:30:00 -0700
 categories: JavaScript
 ---
 
-AMD (Asynchronous Module Definition) 
+### AMD (Asynchronous Module Definition) 
 The AMD module format itself is a proposal for defining modules where both the module and dependencies can be asynchronously loaded. 
 
 "define" method for facilitating module definition and a "require" method for handling dependency loading.
@@ -43,7 +43,21 @@ require(['foo', 'bar'], function ( foo, bar ) {
 
 {% endhighlight %}
 
-CommonJS (CJS)
+Module API supported by RequireJS is AMD. 
+{% highlight javascript %}
+//Calling define with a dependency array and a factory function
+define(['dep1', 'dep2'], function (dep1, dep2) {
+
+    //Define the module value by returning a value.
+    return function () {};
+});
+{% endhighlight %}
+- Register the factory function by calling define(), instead of immediately executing it.
+- Pass dependencies as an array of string values.
+- Only execute the factory function once all the dependencies have been loaded and executed.
+- Pass the dependent modules as arguments to the factory function.
+
+### CommonJS (CJS)
 
 CJS module is a reusable piece of JavaScript which exports specific objects made available to any dependent code - there are typically no function wrappers around such modules.
 
@@ -77,6 +91,6 @@ test.bar(); // 'Hello bar'
 
 {% endhighlight %}
 
-References
-- https://addyosmani.com/writing-modular-js/
-- https://requirejs.org/docs/whyamd.html#purposes
+### References
+- [Writing Modular JavaScript With AMD, CommonJS & ES Harmony](https://addyosmani.com/writing-modular-js/)
+- [MODULE PURPOSES](https://requirejs.org/docs/whyamd.html#purposes)
