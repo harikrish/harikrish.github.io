@@ -30,4 +30,4 @@ scripts, without blocking DOM building.
 ### References
 - [Building the DOM faster: speculative parsing, async, defer and preload](https://hacks.mozilla.org/2017/09/building-the-dom-faster-speculative-parsing-async-defer-and-preload/)
 - [Scripts: async, defer](https://javascript.info/script-async-defer)
-= [Async vs Defer - Which Script Attribute is More Efficient When Loading JavaScript?](https://curiosum.dev/blog/seo-speed-script-tags-async-vs-defer)
+- [Async vs Defer - Which Script Attribute is More Efficient When Loading JavaScript?](https://curiosum.dev/blog/seo-speed-script-tags-async-vs-defer)
