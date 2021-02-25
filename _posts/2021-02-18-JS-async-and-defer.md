@@ -20,7 +20,7 @@ but before the `DOMContentLoaded` event. It guarantees scripts
 will be executed in the order they appear in the HTML and will 
 not block the parser.
 `async` scripts execute at the first opportunity after they finish
-downloading and before the windows `load` event. This means it`s
+downloading and before the windows `load` event. This means it's
 possible that async scripts are not executed in the order in which
 they appear in the HTML. It also means they can interrupt DOM building.
 `async` scripts load at a low priorty. They often load after all other
