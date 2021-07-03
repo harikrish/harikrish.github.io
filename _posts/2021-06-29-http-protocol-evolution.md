@@ -6,9 +6,9 @@ categories: [HTTP, Web]
 ---
 
 HTTP(Hyper Text Transfer Protocol) is the underlying protocol of World Wide Web (www).
-Developed by Tim Berners-Leet and his team between 1989-1991.
+Developed by Tim Berners-Lee and his team between 1989-1991.
 
-HTTP has four version - HTTP/0.9, HTTP/1.0, HTTP/1.1, HTTP/2.0.
+HTTP has four versions - HTTP/0.9, HTTP/1.0, HTTP/1.1, HTTP/2.0.
 
 ## HTTP/0.9
 HTTP/0.9 request consists of a single line and start with only
