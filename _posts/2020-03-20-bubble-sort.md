@@ -2,7 +2,7 @@
 layout: post
 title:  "Bubble Sort"
 date:   2020-03-20 06:35:48 -0700
-categories: [Algorithm, JavaScript]
+categories: [Algorithm, JavaScript, Interview, Coding]
 ---
 
 The bubble sort makes multiple passes through a list. It compares adjacent items and exchanges those that are out of order. Each pass through the list places the next largest value in its proper place. In essence, each item “bubbles” up to the location where it belongs.
@@ -33,4 +33,4 @@ At the start of the second pass, the largest value is now in place. There are n�
 {% endhighlight %}
 
 References:
-- https://runestone.academy/runestone/books/published/pythonds/SortSearch/TheBubbleSort.html
+- [The Bubble Sort](https://runestone.academy/runestone/books/published/pythonds/SortSearch/TheBubbleSort.html)
