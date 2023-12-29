@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fid sum of natural numbers using recursion"
+title:  "Find sum of natural numbers using recursion"
 date:   2023-12-29 07:22:00 -0800
 categories: [JavaScript, Interview, Coding]
 ---
