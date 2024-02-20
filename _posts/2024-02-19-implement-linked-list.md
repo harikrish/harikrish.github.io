@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Linked list using recursion"
+title:  "Linked list using JavaScript"
 date:   2024-02-19 07:22:00 -0800
 categories: [JavaScript, Interview, Coding]
 ---
